@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEFAULT_DIRECTORY="color-scripts"
+DEFAULT_DIRECTORY="./color-scripts"
 
 # Use the provided directory or fall back to the default
 DIRECTORY="${1:-$DEFAULT_DIRECTORY}"
