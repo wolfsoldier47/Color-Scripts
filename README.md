@@ -35,11 +35,11 @@ wget git.io/colr.tar.gz
 wget git.io/colr.zip
 ```
 ### BASH SCRIPT ADDED
-you can either make that bash script random_selector.sh as executable and then link it to your bashrc or zshrc file
+you can either make that bash script random_selector.sh as executable and then link it to your bashrc or zshrc file and set the var DEFAULT_DIRECTORY pointing to the directory where color-scripts are located.
 ```
 chmod +x random_selector.sh
 ```
-or if you have color-script file stored in a different place then you can pass it as argument for example
+or if you have color-script file stored in a different place then you can pass it as a command line argument for example
 
 ```
 ./random_selector.sh <path to folder where color-script is located>
